@@ -1,1 +1,2 @@
-Initial Commit
+Moved requirements to src dir so they would be installed before pyinstaller runs.
+Added colorama to requirements to resolve tqdm issues.
