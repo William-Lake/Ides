@@ -1,2 +1,3 @@
 Added test exe workflow (Issue #1)
 Altered directory structure to work with new test workflow.
+Updated primary workflow to not use pyinstaller action anymore.
