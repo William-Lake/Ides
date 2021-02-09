@@ -350,7 +350,6 @@ if __name__ == "__main__":
 
 			traceback.print_exc()
 
-		input('Press any key to exit.')
 
 
 
