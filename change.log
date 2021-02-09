@@ -1,2 +1,2 @@
-Moved requirements to src dir so they would be installed before pyinstaller runs.
-Added colorama to requirements to resolve tqdm issues.
+Added test exe workflow (Issue #1)
+Altered directory structure to work with new test workflow.
