@@ -22,7 +22,7 @@ jobs:
           python -m pip install pyinstaller
           python -m pip install -r requirements.txt
       - name: Build EXE
-        run: pyinstaller --onefile find_embedded_sql.py
+        run: pyinstaller --onefile --icon=Ides.ico find_embedded_sql.py
       - name: Move Executable
         run: move dist/find_embedded_sql.exe IDES.exe
       - name: Create Release
